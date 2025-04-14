@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    /* background-image:url(../template/Mukuru-Booth.jpeg); */
+    /* background-image:url(../template/GirlMukuru.png); */
+    /* background-image:url(../template/Mukuru-Booth.jpeg); */
+
+    background-color: #f3f7fa;
+    font-family: 'Poppins', sans-serif;
+    /* background-size: */
+    background-repeat: no-repeat;
+    
+}
+.main-bar{
+    display: flow-root;
+    padding: 0 10%;
+}
+
+ul{
+    float: right;
+}
+.logo{
+    display: table;
+    float: left;
+    vertical-align: middle;
+    padding: 0;
+    color: #efbb20;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 180px;
+    height: 68px;
+    position: relative;
+    z-index: 9;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.logo:before{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    height: 100%;
+    z-index: -1;
+    right: -50px;
+    width: 80%;
+    transform: skew(30deg);
+    /* background-color: #ffe10a; */
+    background-color: #e28d0d;
+}
+
+.logo:after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    height: 100%;
+    z-index: -1;
+    right: 10%;
+    width: 200px;
+    /* background-color: #ffe10a; */
+    background-color: #e28d0d;
+    
+    /* background-color: #36352f; */
+}
+
+.logo a{
+    color: #437eaf;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    border-radius: 14px;
+    color: #020101;
+}
+
+nav li.active a{
+    color: #020101;
+    background-color: #fddb0d;
+    /* background-color: #e28d0d; */
+    
+    border-radius: 14px;
+}
+
+nav li a{
+    padding: 15px 25px;
+    border: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #161515;
+    opacity: 1;
+    text-decoration: none;
+    transition: all 0.5s;
+    border-radius: 14px;
+}
+
+nav li:hover a{
+    color: #020101;
+    background-color: #e28d0d;
+    border-radius: 14px;
+}
+
+.wrapper{
+    font-size: 36px;
+    text-align:center;
+}
+
